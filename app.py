@@ -27,7 +27,7 @@ class MySQLAdapter:
             database=self.app.config['MYSQL_DATABASE']
         )
 
-# Inicializa nosso adaptador (Mantemos o nome 'mysql' para o resto do seu código funcionar)
+# Inicializa nosso adaptador (Mantemos o nome 'mysql' para o resto do código funcionar)
 mysql = MySQLAdapter(app)
 
 # -----------------------------------------------------------
